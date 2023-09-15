@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { fetchProducts } from "./ShopSlice";
+import { fetchProducts } from "./shopSlice";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Pagination from "../pagination/pagination";
