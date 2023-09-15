@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchProducts } from "./shopSlice";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import Pagination from "../pagination/pagination";
+import Pagination from "../pagination/Pagination";
 import ShopItem from "./ShopItem";
 
 function Shop() {
